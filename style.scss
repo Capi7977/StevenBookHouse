@@ -1,0 +1,61 @@
+
+@mixin alignment{
+  text-align: center;
+  padding: 10px;
+}
+
+@mixin boxes{
+  height: 50%;
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+}
+
+h1 {
+  @include alignment();
+  background-color: aqua;
+  color: brown;
+}
+
+h2 {
+  text-align: center;
+  color: darkcyan;
+}
+
+.box1 {
+  @include boxes();
+  background-color: chartreuse
+}
+
+.box2 {
+  @include boxes();
+  background-color: aqua;
+}
+
+.box3 {
+  @include boxes();
+  background-color: burlywood;
+}
+
+.box4 {
+  @include boxes();
+  background-color: cornflowerblue;
+}
+
+.box5 {
+  @include boxes();
+  background-color: mediumpurple;
+}
+
+

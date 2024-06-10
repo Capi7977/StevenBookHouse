@@ -1,0 +1,86 @@
+img {
+  width: 20%;
+  height: 20%;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  background-color: aqua;
+  color: brown;
+}
+
+h2 {
+  text-align: center;
+  color: darkcyan;
+}
+
+.box1 {
+  height: 50%;
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  background-color: chartreuse;
+}
+
+.box2 {
+  height: 50%;
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  background-color: aqua;
+}
+
+.box3 {
+  height: 50%;
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  background-color: burlywood;
+}
+
+.box4 {
+  height: 50%;
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  background-color: cornflowerblue;
+}
+
+.box5 {
+  height: 50%;
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  background-color: mediumpurple;
+}/*# sourceMappingURL=style.css.map */
